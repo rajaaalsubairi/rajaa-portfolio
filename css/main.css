@@ -43,7 +43,7 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-    color: red;
+    color: lightblue;
 }
 
 .billboard {
@@ -55,11 +55,18 @@ body {
 }
 
 h1 {
-    color: white;
+    color: lightblue;
     text-align: center;
-    vertical-align: middle;
-    margin: 3em 0;
+    position: relative;
+    bottom: -50%;
+}
+
+.headlines {
+    text-align: center;
+    background-color: black;
+    color: white;
     overflow: hidden;
+    margin: 0;
 }
 
 /** LIGHTBOX MARKUP **/
@@ -107,5 +114,9 @@ h1 {
     
     .thumb img {
         width: 33vw;
+    }
+    
+    .thumb2 img {
+        width: 66vw;
     }
 }
