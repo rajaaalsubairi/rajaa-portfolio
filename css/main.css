@@ -15,7 +15,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
- overflow-x: hidden;
 }
 
 body {
@@ -94,11 +93,19 @@ h1 {
 	display: block;
 }
 
+.thumb img {
+    width: 100vw;
+}
 
-@media only screen and (min-width:500px) {
+
+@media only screen and (min-width:38em) {
 
     .nav ul li {
         display: inline-block;
         float: right;
+    }
+    
+    .thumb img {
+        width: 33vw;
     }
 }
