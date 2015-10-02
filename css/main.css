@@ -102,6 +102,11 @@ h1 {
 
 .thumb img {
     width: 100vw;
+    -webkit-transition: all 200ms ease-in;
+}
+
+.thumb img:hover{
+    -webkit-filter: blur(1px);
 }
 
 
@@ -113,10 +118,11 @@ h1 {
     }
     
     .thumb img {
-        width: 33vw;
+        width: 33.3333vw;
+        margin: 0;
     }
     
     .thumb2 img {
-        width: 66vw;
+        width: 66.6666vw;
     }
 }
