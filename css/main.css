@@ -27,6 +27,7 @@ body {
     padding: .3em;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .nav ul li,
@@ -107,7 +108,7 @@ h1 {
 }
 
 .thumb img:hover{
-    -webkit-filter: blur(1px);
+    /**-webkit-filter: blur(1px);*/
 }
 
 /**footer*/
@@ -132,4 +133,5 @@ h1 {
     .thumb2 img {
         width: 66.6666vw;
     }
+    
 }
