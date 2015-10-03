@@ -43,7 +43,7 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-    color: lightblue;
+    color: #f6a56f;
 }
 
 .billboard {
@@ -55,15 +55,16 @@ body {
 }
 
 h1 {
-    color: lightblue;
+    color: #f6a56f;
     text-align: center;
     position: relative;
     bottom: -50%;
 }
 
+
 .headlines {
     text-align: center;
-    background-color: black;
+    background-color: #63c1a9;
     color: white;
     overflow: hidden;
     margin: 0;
@@ -109,6 +110,12 @@ h1 {
     -webkit-filter: blur(1px);
 }
 
+/**footer*/
+
+.outro {
+    background-color: #63c1a9;
+    color: white;
+}
 
 @media only screen and (min-width:38em) {
 

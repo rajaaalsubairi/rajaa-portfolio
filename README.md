@@ -4,8 +4,8 @@
 
 Rajaa is a graphic designer that enjoys illustration and typography.
 
--[hey@rajaabairi.ca](mailto:hey@rajaabairi.ca)
+- [hey@rajaabairi.ca](mailto:hey@rajaabairi.ca)
 
--[Instagram](instagram.com/rawjaaaaaa)
+- [Instagram](instagram.com/rawjaaaaaa)
 
--[Twitter](twitter.com/rajaabairi)
+- [Twitter](twitter.com/rajaabairi)
