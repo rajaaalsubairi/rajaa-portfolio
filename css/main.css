@@ -102,13 +102,21 @@ h1 {
 	display: block;
 }
 
-.thumb img {
-    width: 100vw;
-    -webkit-transition: all 200ms ease-in;
+#photos {
+    line-height: 0;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0px;
 }
 
-.thumb img:hover{
-    /**-webkit-filter: blur(1px);*/
+#photos img {
+    width: 100%;
+    height: auto;
+    opacity: .5;
+    transition: all 500ms ease-in;
+}
+
+#photos img:hover {
+    opacity: 1;
 }
 
 /**footer*/
@@ -125,13 +133,18 @@ h1 {
         float: right;
     }
     
-    .thumb img {
+    /**.thumb img {
         width: 33.3333vw;
         margin: 0;
     }
     
     .thumb2 img {
         width: 66.6666vw;
-    }
+    }*/
     
+    #photos {
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+}
 }
