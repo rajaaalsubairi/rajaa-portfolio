@@ -157,13 +157,9 @@ h1 {
 }
 
 .icons img {
-    width: 10%;
+    width: 5%;
 }
 
-.icons {
-    margin-left:2%;
-    float: right;
-}
 
 
 @media only screen and (min-width:38em) {
