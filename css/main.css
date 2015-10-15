@@ -88,10 +88,11 @@ h1 {
 
 .headlines {
     text-align: center;
-    background-color: #63c1a9;
+    background-color: black;
     color: white;
     overflow: hidden;
     margin: 0;
+    padding-top: .3em;
 }
 
 /** LIGHTBOX MARKUP **/
@@ -160,17 +161,12 @@ h1 {
 
 /**footer*/
 
-.outro {
-    background-color: #63c1a9;
-    color: white;
-}
-
 .icons img {
     width: 15%;
 }
 
 .icons {
-    margin-left: 22.5%;
+    margin:0 22.5%;
 }
 
 .copyright {
