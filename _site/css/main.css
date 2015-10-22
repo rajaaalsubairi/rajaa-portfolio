@@ -113,6 +113,7 @@ h1 {
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.9);
+    overflow-y: auto;
 }
 
 .lightbox img {
