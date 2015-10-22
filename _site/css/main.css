@@ -70,6 +70,10 @@ body {
     color: #f6a56f;
 }
 
+.logo {
+    width: 40%;
+}
+
 .billboard {
     background-image: url(../image/CD13A5C6BB79FBD.jpg);
     background-position: center top;
