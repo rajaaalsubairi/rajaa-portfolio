@@ -11,11 +11,11 @@ layout: default
     <!--navigation-->
     <div class="nav" role="navigation">
         <ul>
-            <li><a href="#contact">About</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </div>
+   
+</div>
 <!--billboard-->
     <div class="billboard">
         <h1> Logo here probably</h1>
@@ -26,9 +26,23 @@ layout: default
     <div id="work">
         <h2 class="headlines yotta">MY WORK</h2>
     </div>
-  <section id="photos" class="gal">
+<section id="photos" class="gal">
+    {% include work.html img="image/Untitled-1-07.jpg" url="#img1" %}
+    
+     {% include work.html img="image/Untitled-1-02.jpg" url="#img2"  %}
+    
+     {% include work.html img="image/Untitled-1-04.jpg" url="#img3" %}
+    
+      {% include work.html img="image/Untitled-1-05.jpg" url="#img4" %}
+    
+    {% include work.html img="image/Untitled-1-01.jpg" url="#img5" %}
+    
+     {% include work.html img="image/Untitled-1-06.jpg" url="#img6" %}
+    
+</section>
+    
     <!-- thumbnail for lightbox -->
-        <a href="#img1" class="thumb2 thumb">
+       <!-- <a href="#img1" class="thumb2 thumb">
             <img src="image/Untitled-1-07.jpg">
         </a>
         
@@ -40,23 +54,37 @@ layout: default
             <img src="image/Untitled-1-04.jpg">
         </a>
       
-    <!-- thumbnail for lightbox -->
         <a href="#img4" class="thumb">
             <img src="image/Untitled-1-05.jpg">
         </a>
           
-    <!-- thumbnail for lightbox -->
         <a href="#img5" class="thumb">
             <img src="image/Untitled-1-01.jpg">
         </a>
       
       <a href="#img6" class="thumb">
             <img src="image/Untitled-1-06.jpg">
-        </a>
-               
-    </section>
+        </a>-->
+    
 <!--bigger image in light box-->
-    <div class="grid">        
+    
+    {% include lightbox.html img="image/7e708157719158025e823ddce7b6de2051f348ac_m.jpg" title="title" id="img1" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    
+    {% include lightbox.html img="image/CD13A5C6BB79FBD.jpg" title="title" id="img2" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    
+    {% include lightbox.html img="image/AD51C34E9B20A370.jpg" title="title" id="img3" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    
+    {% include lightbox.html img="image/CD13A5C6BB79F9D.jpg" title="title" id="img4" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    
+    {% include lightbox.html img="image/CD13A5C6BB79FBE.jpg" title="title" id="img5" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    {% include lightbox.html img="image/CGyyXfeUkAAypM8.jpg" title="title" id="img6" text="orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis"%}
+    
+    <!--<div class="grid">        
     <a href="#_" class="lightbox" id="img1">
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
                     <img src="image/7e708157719158025e823ddce7b6de2051f348ac_m.jpg" alt="img1">
@@ -128,7 +156,7 @@ layout: default
                     <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper commodo luctus. Nulla lobortis, lectus vitae ultrices dignissim, massa magna dignissim est, et venenatis sem ante eu mi.</p>
                     </div>
             </a>
-    </div>
+    </div>-->
 
 <h2>lskdhfkjhasdf</h2>
  </main>
