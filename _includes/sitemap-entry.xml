@@ -1,0 +1,13 @@
+<url>
+    <loc>https://Rajaaalsubairi.github.io/rajaa-portfolio{{site.baseurl}}{{inculde.entry.url}}</loc>
+    
+     {% if include.entry.priority %}
+    <priority>{{include.entry.priority}}</priority>
+     {% endif %}
+    
+     {% if include.entry.changefreq %}
+     <changefreq>{{include.entry.changefreq}}</changefreq>
+     {% endif %}
+</url>
+    
+    
