@@ -140,14 +140,18 @@ h1 {
     padding: .5em;
 }
 
-.close {
-    text-decoration: none;
-    color: red;
-    text-align: right;
+.back p {
+    margin-right: .5em;
 }
 
-a .close : hover{
-    background-color: yellow;
+.back {
+    color: red;
+    text-align: right;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.back:hover{
+    background-color: pink;
 }
 
 .gal {

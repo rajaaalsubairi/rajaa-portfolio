@@ -1,4 +1,4 @@
 Sitemap: https://rajaalsubairi.github.io/rajaa-portfolio/sitemap.txt
 
-User-agen : *
+User-agent : *
 Disallow: /img
