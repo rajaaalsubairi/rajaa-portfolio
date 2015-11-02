@@ -143,6 +143,7 @@ h1 {
 .close {
     text-decoration: none;
     color: red;
+    text-align: right;
 }
 
 a .close : hover{
