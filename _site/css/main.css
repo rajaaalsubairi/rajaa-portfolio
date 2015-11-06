@@ -89,11 +89,10 @@ h1 {
     top: 10em;
 }
 
-
 .headlines {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     overflow: hidden;
     margin: 0;
     padding-top: .3em;
@@ -150,7 +149,7 @@ h1 {
     background-color: rgba(0,0,0,0.3);
 }
 
-.back:hover{
+.back:hover {
     background-color: pink;
 }
 
@@ -175,7 +174,9 @@ h1 {
     transition: all 500ms ease-in;
 }
 
-#photos img:hover {
+#photos img:hover,
+#photos img:focus,
+#photos img:active,{
     opacity: 1;
 }
 
@@ -199,15 +200,6 @@ h1 {
         display: inline-block;
         float: right;
     }
-    
-    /**.thumb img {
-        width: 33.3333vw;
-        margin: 0;
-    }
-    
-    .thumb2 img {
-        width: 66.6666vw;
-    }*/
     
     #photos {
     line-height: 0;
