@@ -114,6 +114,27 @@ h1 {
 	background:/* rgba(0,0,0,0.9);*/white;
     overflow-y: auto;
     z-index: 2;
+    animation: boxin 600ms ease-in;
+}
+
+@keyframes boxin {
+    
+    0% { 
+        transform: translateX(100%);
+    }
+    
+    65% {
+        transform: translateX(0px);
+    }
+    
+    75% {
+        transform: translateX(5%);
+    }
+        
+    100% { 
+        transform: translateX(0px);
+        box-shadow: 10px 10px 5px pink;
+    }
 }
 
 .lightbox img {
@@ -144,7 +165,7 @@ h1 {
 }
 
 .back {
-    color: red;
+    color: white;
     text-align: right;
     background-color: rgba(0,0,0,0.3);
 }
@@ -176,7 +197,7 @@ h1 {
 
 #photos img:hover,
 #photos img:focus,
-#photos img:active,{
+#photos img:active{
     opacity: 1;
 }
 
