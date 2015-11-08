@@ -137,7 +137,7 @@ h1 {
     }
 }
 
--webkit-@keyframes boxin {
+@-webkit-keyframes boxin {
     
     0% { 
         -webkit-transform: translateX(100%);
