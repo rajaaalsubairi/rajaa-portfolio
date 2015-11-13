@@ -255,16 +255,17 @@ h1 {
     }
     
     #photos {
-    -webkit-columns: 2;
+    -webkit-columns: 3;
     -webkit-column-gap: 0px;
-    -moz-columns: 2;
+    -moz-columns: 3;
     -moz-column-gap: 0px;
-    columns: 2;
+    columns: 3;
     column-gap: 0px;
     -webkit-columns: balance;
     transform:translateZ(0);
     -webkit-perspective: 1;
     }    
+    
     .icons img {
     width: 15%;
     }
