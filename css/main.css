@@ -204,9 +204,11 @@ h1 {
 
 .gal {
     overflow: hidden;
+    opacity: .5;
+    transition: all 300ms ease-in;
 }
 
-#photos {
+/*#photos {
     line-height: 0;
     -webkit-columns: 2;
     -webkit-column-gap: 0px;
@@ -226,10 +228,11 @@ h1 {
     opacity: .5;
     transition: all 500ms ease-in;
 }
+*/
 
-#photos img:hover,
-#photos img:focus,
-#photos img:active{
+.gal:hover,
+.gal:focus,
+.gal:active{
     opacity: 1;
 }
 
