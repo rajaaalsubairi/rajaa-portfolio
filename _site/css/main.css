@@ -254,8 +254,7 @@ h1 {
 
 .slides {
     padding: 0;
-    width: 609px;
-    height: 420px;
+    width: 80%;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -274,15 +273,14 @@ h1 {
     display: none; 
 }
 
-.slide-container { display: 
-    block; 
+.slide-container { 
+    display: block; 
 }
 
 .slide {
     top: 0;
     opacity: 0;
-    width: 609px;
-    height: 420px;
+    width: 100%;
     display: block;
     position: absolute;
 
@@ -294,6 +292,7 @@ h1 {
 .slide img {
     width: 100%;
     height: 100%;
+    background-size: cover;
 }
 
 .nav label {
