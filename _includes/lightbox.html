@@ -20,75 +20,82 @@
  <a href="#_" class="lightbox" id="{{include.id}}">
      <p class="back">Back</p>
 
-      <input class="slide-open" type="radio" name="slider1" id="slide1" aria-hidden="true" checked >
-      <input class="slide-open" type="radio" name="slide2" id="slide2" aria-hidden="true" hidden="">
-      <input class="slide-open" type="radio" name="slider3" id="slide3" aria-hidden="true" hidden="">
-      <input class="slide-open" type="radio" name="slider4" id="slide4"aria-hidden="true" hidden="">
-     <input class="slide-open" type="radio" name="slider5" id="slide5" aria-hidden="true" hidden="">
+     <ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img src="{{include.img1}}" />
+        </div>
+		<div class="nav">
+			<label for="img-6" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="{{include.img2}}" />
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="{{include.img3}}" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="{{include.img1}}" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="{{include.img1}}" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="{{include.img1}}" />
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+    </li>
+</ul>
      
-     <div id="slides">
-        <div id="overflow">
-            <div class="inner">
-            <article class="work grid">
-                <div class="info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <img src="{{include.img1}}">
-                 <h2>{{include.title}}</h2>
-                <p>{{include.text}}</p>
-                    </div>
-            </article>
-            
-            <article class="work">
-                <div class="info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <img src="{{include.img2}}">
-                <h2>{{include.title}}</h2>
-                <p>{{include.text}}</p>
-                    </div>
-            </article>
-            
-                <article class="work">
-                <div class="info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <img src="{{include.img3}}">
-                <h2>{{include.title}}</h2>
-                <p>{{include.text}}</p>
-                    </div>
-            </article>
-                
-                <article class="work">
-                <div class="info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <img src="{{include.img4}}">
-                <h2>{{include.title}}</h2>
-                <p>{{include.text}}</p>
-                    </div>
-                    
-            </article>
-                <article class="work">
-                <div class="info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <img src="{{include.img5}}">
-                <h2>{{include.title}}</h2>
-                <p>{{include.text}}</p>
-                    </div>
-            </article>
-                
-            </div>
-         </div>
-     </div>
-     <!-- controls and active display-->
-     <div id="controls">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-        
-                    
-     </div>
-     <!-- #controls-->
-     <div id="active">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-     </div>
     
 </a>

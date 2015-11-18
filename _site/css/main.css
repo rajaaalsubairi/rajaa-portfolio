@@ -252,128 +252,117 @@ h1 {
 
 /*carsoul*/
 
-#slides {
-    margin: 0 3em;
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
     position: relative;
 }
-#slider {
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
 	text-align: center;
-    width: 80%;
 }
 
-input {
-	display: none;
-}
-
-#slide1:checked ~ #slides .inner { margin-left:0; }
-#slide2:checked ~ #slides .inner { margin-left:-100%; }
-#slide3:checked ~ #slides .inner { margin-left:-200%; }
-#slide4:checked ~ #slides .inner { margin-left:-300%; }
-#slide5:checked ~ #slides .inner { margin-left:-400%; }
-
-
-#overflow {
-	width: 100%;
-	overflow: hidden;
-}
-
-article img {
-	width: 100%;
-    background-size: cover;
-}
-
-#slides .inner {
-	width: 500%;
-	line-height: 0;
-}
-
-#slides article {
-	width: 20%;
-	float: left;
-}
-
-.slide-open:checked + .work {
-    position: static;
-    opacity: 100;
-}
-
-/* Control Setup */
-
-#controls {
-	margin: -25% 0 0 0;
-	width: 100%;
-	height: 50px;
-}
-
-#controls label { 
- display: block;
-}
-
-#active {
-	margin: 23% 0 0;
-	text-align: center;
-}
-
-
-#active label {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
 	display: inline-block;
-	width: 10px;
-	height: 10px;
-	background: #bbb;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
-#active label:hover {
-	background: #ccc;
-	border-color: #777 !important;
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
-#controls label:hover {
-	opacity: 0.8;
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
 }
 
-#slide1:checked ~ #controls label:nth-child(2), 
-#slide2:checked ~ #controls label:nth-child(3), 
-#slide3:checked ~ #controls label:nth-child(4), 
-#slide4:checked ~ #controls label:nth-child(5), 
-#slide5:checked ~ #controls label:nth-child(1) {
-	background: url('../image/next.svg') no-repeat;
-	float: right;
-	margin: 0 0 0 0;
-	display: block;
-    position: absolute;
-    top: 3em;
-    right: .2em;
-    background-color: pink;
-}
-
-
-#slide1:checked ~ #controls label:nth-child(5),
-#slide2:checked ~ #controls label:nth-child(1),
-#slide3:checked ~ #controls label:nth-child(2),
-#slide4:checked ~ #controls label:nth-child(3),
-#slide5:checked ~ #controls label:nth-child(4) {
-	background: url('../image/prev.svg') no-repeat;
-	float: left;
-	margin: 0 0 0 0;
-	display: block;
-    position: absolute;
-    top: 3em;
-    left: .2em;
-    background-color: pink;
-}
-
-#slide1:checked ~ #active label:nth-child(1),
-#slide2:checked ~ #active label:nth-child(2),
-#slide3:checked ~ #active label:nth-child(3),
-#slide4:checked ~ #active label:nth-child(4),
-#slide5:checked ~ #active label:nth-child(5) {
-	background: #333;
-	border-color: purple !important;
-}
-#con
 @media only screen and (min-width:38em) {
 
     .nav ul li {
