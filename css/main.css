@@ -252,129 +252,128 @@ h1 {
 
 /*carsoul*/
 
-.carousel {
+#slides {
+    margin: 0 3em;
     position: relative;
-    margin-top: 2%;
-    margin: 2% 5% 0;
+}
+#slider {
+	text-align: center;
+    width: 80%;
 }
 
-.carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-bottom: 1em;
+input {
+	display: none;
 }
 
-.carousel-open:checked + .carousel-item {
+#slide1:checked ~ #slides .inner { margin-left:0; }
+#slide2:checked ~ #slides .inner { margin-left:-100%; }
+#slide3:checked ~ #slides .inner { margin-left:-200%; }
+#slide4:checked ~ #slides .inner { margin-left:-300%; }
+#slide5:checked ~ #slides .inner { margin-left:-400%; }
+
+
+#overflow {
+	width: 100%;
+	overflow: hidden;
+}
+
+article img {
+	width: 100%;
+    background-size: cover;
+}
+
+#slides .inner {
+	width: 500%;
+	line-height: 0;
+}
+
+#slides article {
+	width: 20%;
+	float: left;
+}
+
+.slide-open:checked + .work {
     position: static;
     opacity: 100;
 }
 
-.carousel-item {
+/* Control Setup */
+
+#controls {
+	margin: -25% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#controls label { 
+ display: block;
+}
+
+#active {
+	margin: 23% 0 0;
+	text-align: center;
+}
+
+
+#active label {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #bbb;
+}
+
+#active label:hover {
+	background: #ccc;
+	border-color: #777 !important;
+}
+
+#controls label:hover {
+	opacity: 0.8;
+}
+
+#slide1:checked ~ #controls label:nth-child(2), 
+#slide2:checked ~ #controls label:nth-child(3), 
+#slide3:checked ~ #controls label:nth-child(4), 
+#slide4:checked ~ #controls label:nth-child(5), 
+#slide5:checked ~ #controls label:nth-child(1) {
+	background: url('../image/next.svg') no-repeat;
+	float: right;
+	margin: 0 0 0 0;
+	display: block;
     position: absolute;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;
+    top: 3em;
+    right: .2em;
+    background-color: pink;
 }
 
-.carousel-item img {
-    display: block;
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    
-}
 
-.carousel-control {
-    background: pink;
-    color: white;
-    cursor: pointer;
-    display: none;
+#slide1:checked ~ #controls label:nth-child(5),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3),
+#slide5:checked ~ #controls label:nth-child(4) {
+	background: url('../image/prev.svg') no-repeat;
+	float: left;
+	margin: 0 0 0 0;
+	display: block;
     position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-align: center;
-    width: 50px;
-    z-index: 10;
+    top: 3em;
+    left: .2em;
+    background-color: pink;
 }
 
-.carousel-control.prev {
-    left: 5%;
+#slide1:checked ~ #active label:nth-child(1),
+#slide2:checked ~ #active label:nth-child(2),
+#slide3:checked ~ #active label:nth-child(3),
+#slide4:checked ~ #active label:nth-child(4),
+#slide5:checked ~ #active label:nth-child(5) {
+	background: #333;
+	border-color: purple !important;
 }
-
-.carousel-control.next {
-    right: 5%;
-}
-
-.carousel-control:hover,
-.carousel-control:focus,
-.carousel-control:active {
-    background: green;
-    color: white;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3,
-#carousel-4:checked ~ .control-4,
-#carousel-5:checked ~ .control-5,
-#carousel-6:checked ~ .control-6 {
-    display: block;
-}
-
-.carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 2em;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.carousel-bullet {
-    color: gray;
-    cursor: pointer;
-    display: block;
-    font-size: 30px;
-}
-
-.carousel-bullet:hover,
-.carousel-bullet:focus,
-.carousel-bullet:active {
-    color: lightgray;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
-#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
-#carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
-#carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet {
-    color: pink;
-}
-
-#title {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    z-index: 9999;
-}
-
+#con
 @media only screen and (min-width:38em) {
 
     .nav ul li {
