@@ -72,16 +72,21 @@ body {
 
 .logo {
     width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 10em;
+    position: relative;
 }
 
 .billboard {
-    background-image: url(../image/CD13A5C6BB79FBD.jpg);
+   /* background-image: url(../image/CD13A5C6BB79FBD.jpg);*/
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 30em;
     margin-bottom: 0;
     overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
 }
 
 h1 {
