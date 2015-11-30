@@ -46,24 +46,27 @@ body {
 /**navigation*/
 .nav {
     background-color: rgba(0,0,0,0.2);
-    padding: 1em .3em;
+    padding: 1em .3em 0;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
-.nav ul li,
+.nav li,
 .nav a {
     display: block;
     text-decoration: none;
     list-style: none;
-    margin: 0 1em 0 .5em;
+    margin: 0 1em 0em .5em;
     color: white;
     text-align: right;
     transition: color 500ms ease-in;
     padding-bottom: .2em;
 }
 
+.nav ul {
+    margin: 0 0 .5em;
+}
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
