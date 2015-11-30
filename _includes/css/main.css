@@ -113,6 +113,7 @@ h1 {
     padding: 1em 6em;
     overflow: hidden;
     font-size: 1.5em;
+    display: none;
     
 }
 
@@ -209,8 +210,9 @@ h1 {
 
 .back {
     color: white;
-    text-align: right;
     background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    height: 3em;
 }
 
 .back:hover {
@@ -243,7 +245,9 @@ h1 {
     text-align: center;
 }
 
-
+.headlines {
+    background-color: #f6a56f;
+}
 
 
 @media only screen and (min-width:38em) {
@@ -271,6 +275,10 @@ h1 {
 
     .icons {
     margin: 0 22.5%;
+    }
+    
+    .about {
+        display: block;
     }
 
 }
