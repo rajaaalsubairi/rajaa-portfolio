@@ -84,6 +84,7 @@ body {
 .billboard {
     background-image: url(../image/1-TOC.jpg);
     background-position: center top;
+    background-color: pink;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40em;
