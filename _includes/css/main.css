@@ -74,11 +74,8 @@ body {
 }
 
 .logo {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    top: 10em;
-    position: relative;
+    width: 20%;
+    float: left;
 }
 
 .billboard {
@@ -223,6 +220,7 @@ h1 {
 .back:hover {
     background-color: pink;
 }
+
 
 .gal {
     overflow: hidden;
