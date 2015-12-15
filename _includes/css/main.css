@@ -112,7 +112,7 @@ h1 {
     color: black;
     /*background-color: #f6a56f;*/
     background-color: white;
-    padding: 1em 6em;
+    padding: 0 6em;
     overflow: hidden;
     font-size: 1em;
     display: none;
@@ -307,7 +307,7 @@ h1 {
 @supports (min-height:100vh) {
 
     .billboard {
-        min-height: 70vh;
+        min-height: 80vh;
     }
     
     .about {
