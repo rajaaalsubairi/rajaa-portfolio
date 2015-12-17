@@ -254,6 +254,8 @@ h1 {
 
 .thumbs {
     display: none;
+    width: 100%;
+    height: auto;
 }
 
 .mobile-thumbs {
