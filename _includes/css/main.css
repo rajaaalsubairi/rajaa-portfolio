@@ -266,6 +266,15 @@ h1 {
 .mobile-thumbs {
     display: block;
 }
+
+.error {
+    overflow: hidden;
+    padding-top: 10em;
+}
+
+.error h2 {
+    text-align: center;
+}
 @media only screen and (min-width:38em) {
 
     .nav ul li {
