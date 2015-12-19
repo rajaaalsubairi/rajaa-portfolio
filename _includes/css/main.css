@@ -202,19 +202,23 @@ h1 {
     padding: .5em;
 }
 
-.back p {
-    margin-right: .5em;
+.closelightbox img {
+    width: 8%;
+    margin: 0 46%;
+    padding: .5em 0;
 }
 
-.back {
+.closelightbox {
     color: white;
-    background-color: rgba(0,0,0,0.3);
-    text-align: center;
-    height: 3em;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
 }
 
-.back:hover {
-    background-color: pink;
+.closelightbox:hover,
+.closelightbox:active,
+.closelightbox:focus{
+    background-color: black;
+    color: white;
 }
 
 
