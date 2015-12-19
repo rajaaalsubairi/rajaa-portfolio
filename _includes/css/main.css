@@ -205,13 +205,17 @@ h1 {
 .closelightbox img {
     width: 8%;
     margin: 0 46%;
-    padding: .5em 0;
+    position: relative;
+    top: 1.1em;
+    overflow: hidden;
 }
 
 .closelightbox {
-    color: white;
-    background-color: rgba(0,0,0,0.4);
-    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    top: -1.1em;
+    height: 4em;
+    overflow: hidden;
 }
 
 .closelightbox:hover,
