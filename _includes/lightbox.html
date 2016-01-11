@@ -1,11 +1,10 @@
 <div class="lightbox" id="{{include.id}}">
     
-    <a class="closelightbox" href="#_">
-    <img src="image/x-01-01.svg" alt="close">
-    </a>
-                    
-        <div class="grid">
+    <hr>
+
+        <div class="grid lightbox-container">
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                        
                         <img src="{{include.img}}" alt="img1">
                     </div>
             
@@ -21,15 +20,19 @@
     <ul class="grid galnav">
          <a href="{{include.back}}" class=" info unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
         <li class="previous">
-            <p>previous</p>
+            <p><</p>
         </li>
             </a>
         
         <a href="{{include.after}}" class="info unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
         <li class="next">
-            <p>next</p>
+            <p>></p>
         </li>
         </a>
     </ul>
-    
+    <!--
+    <a class="closelightbox" href="#_">
+    <img src="image/x-01-01.svg" alt="close">
+    </a>
+    -->
 </div>
