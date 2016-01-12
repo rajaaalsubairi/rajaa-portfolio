@@ -244,17 +244,10 @@ h1 {
 .gal:focus,
 .gal:active{
     opacity: 1;
+    border: 4px solid linear;
 }
 
 /**footer*/
-
-.icons img {
-    width: 15%;
-}
-
-.icons {
-    margin:0 22.5%;
-}
 
 .copyright {
     text-align: center;
@@ -337,31 +330,16 @@ hr {
     margin: 5px;
 }
 
+.icons a {
+    text-decoration: none;
+    color: pink;
+}
+
 @media only screen and (min-width:38em) {
 
     .nav ul li {
         display: inline-block;
         float: right;
-    }
-    
-    #photos {
-    -webkit-columns: 3;
-    -webkit-column-gap: 0px;
-    -moz-columns: 3;
-    -moz-column-gap: 0px;
-    columns: 3;
-    column-gap: 0px;
-    -webkit-columns: balance;
-    transform:translateZ(0);
-    -webkit-perspective: 1;
-    }    
-    
-    .icons img {
-    width: 15%;
-    }
-
-    .icons {
-    margin: 0 22.5%;
     }
     
     .about {
