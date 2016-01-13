@@ -111,34 +111,11 @@ body {
     overflow: hidden;
 }
 
-h1 {
-    color: #f6a56f;
-    text-align: center;
-    font-size: 2em;
-    position: relative;
-    top: 1em;
-}
-
-.headlines {
-    text-align: center;
-    background-color: white;
-    color: black;
+.footer-info {
+    color: white;
     overflow: hidden;
-    margin: 0;
-    padding-top: .3em;
-}
-
-.about,
-.quote {
-    text-align: center;
-    color: black;
-    /*background-color: #f6a56f;*/
-    background-color: white;
-    padding: 0 6em;
-    overflow: hidden;
-    font-size: 1em;
     display: none;
-    min-height: 15em;
+    margin-top: 1em;
 }
 
 /** LIGHTBOX MARKUP **/
@@ -251,10 +228,11 @@ h1 {
 
 .copyright {
     text-align: center;
+    margin: 0;
 }
 
-.headlines {
-    background-color: white;
+footer {
+    background-color: #8B8B8B;
 }
 
 .thumbs {
@@ -332,7 +310,21 @@ hr {
 
 .icons a {
     text-decoration: none;
-    color: pink;
+    color: white;
+    font-size: 2em; 
+}
+
+.icons a:hover {
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+.icons {
+    display: inline-block;
+}
+
+
+h3 {
+    font-style: bold;
 }
 
 @media only screen and (min-width:38em) {
@@ -342,7 +334,7 @@ hr {
         float: right;
     }
     
-    .about {
+    .footer-info {
         display: block;
     }
     
@@ -370,9 +362,4 @@ hr {
     .billboard {
         min-height: 80vh;
     }
-    
-    .about {
-        min-height: 20vh;
-    }
-    
 }
