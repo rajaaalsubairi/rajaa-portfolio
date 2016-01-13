@@ -80,6 +80,7 @@ body {
 
 .logo:hover {
     animation: shake 1s;
+    -webkit-animation: shake 1s;
 }
 
 @-webkit-keyframes shake {
@@ -114,7 +115,6 @@ body {
 .footer-info {
     color: white;
     overflow: hidden;
-    display: none;
     margin-top: 1em;
 }
 
@@ -213,15 +213,14 @@ body {
 
 .gal {
     overflow: hidden;
-    opacity: .5;
-    transition: all 300ms ease-in;
+    opacity: .7;
+    transition: all 300ms ease-in-out;
 }
 
 .gal:hover,
 .gal:focus,
 .gal:active{
-    opacity: 1;
-    border: 4px solid linear;
+     opacity: 1;
 }
 
 /**footer*/
@@ -232,7 +231,8 @@ body {
 }
 
 footer {
-    background-color: #8B8B8B;
+    background-color: #444444;
+    padding: 1.5em;
 }
 
 .thumbs {
@@ -243,6 +243,7 @@ footer {
     top: 0;
     left: 0;
 }
+
 
 .mobile-thumbs {
     display: block;
@@ -315,8 +316,8 @@ hr {
 }
 
 .icons a:hover {
-    border-bottom: 2px solid orange;
-    color: orange;
+    border-bottom: 2px solid #e41a50;
+    color: #e41a50;
 }
 .icons {
     display: inline-block;
@@ -325,6 +326,7 @@ hr {
 
 h3 {
     font-style: bold;
+    margin: 0 0 .5em;
 }
 
 @media only screen and (min-width:38em) {
@@ -332,10 +334,6 @@ h3 {
     .nav ul li {
         display: inline-block;
         float: right;
-    }
-    
-    .footer-info {
-        display: block;
     }
     
     .thumbs {
