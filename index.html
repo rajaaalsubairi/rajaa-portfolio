@@ -32,24 +32,24 @@ priority: 1.0
     
     {% include mobile-thumbs.html %}
     
-    {% include thumbs.html id1="#img1" id2="#img2" id3="#img3" id4="#img4" id5="#img5" id6="#img6"%}
+    {% include thumbs.html id1="#img1" id2="#img2" id3="#img3" id4="#img4" id5="#img5" id6="#img6" %}
      
 <!--bigger image in light box-->
     
-     {% include lightbox.html img="image/thumb-1.jpg" title="Camellia Teas" id="img1" text="Camellia Teas is a business that provides a service that introduce people Japanese culture. This business helps its consumers relax and enrich their mind and spirit through learning and experiencing the traditional art and making them relevant tot he modern and everyday life. Camellia Teas also offers a variety of tea products." challenge="blahblahblah" solution="blahblahblha" artform="BRANDING | 2014" after="#img2" back="#img6" %}
+     {% include lightbox.html main-pic="image/camellia-teas.jpg" title="Camellia Teas" id="img1" text="Camellia Teas is a business that provides a service that introduce people Japanese culture. This business helps its consumers relax and enrich their mind and spirit through learning and experiencing the traditional art and making them relevant to
+the modern and everyday life." challenge="blahblahblah" solution="blahblahblha" artform="BRANDING | 2015" after="#img2" back="#img6" %}
     
-    {% include lightbox.html img="image/thumb-4.jpg" title="Stop it!" id="img2" text="A domestic abuse help app in disguise" after="#img3" back="#img1" %}
-    
-    
-    {% include lightbox.html img="image/thumb-2.jpg" title="Cure Your Ignorance" id="img3" text="Cure your Ignorance is a campaign that brings awareness towards women issues and equality" after="#img4" back="#img2" %}
+    {% include video-lightbox.html img="image/thumb-4.jpg" title="Stop it!" id="img2" text="A domestic abuse help app in disguise" after="#img3" back="#img1" artform="INTERACTIVE | MOTION | STRATEGY | 2015" source="https://player.vimeo.com/video/149151303" %}
     
     
-    {% include lightbox.html img="image/ParkMfinal1.jpg" title="ParkM" id="img4" text="ParkM is an app designed to relieve the stress of finding a parking place for your vehical" after="#img5" back="#img3" %}
+    {% include lightbox.html main-pic="image/thumb-2.jpg" title="Cure Your Ignorance" id="img3" text="Cure your Ignorance is a campaign that brings awareness towards women issues and equality" after="#img4" back="#img2" artform="CAMPAIGN | STRATEGY | MIXED MEDIA | 2014" %}
     
     
-    {% include lightbox.html img="image/thumb-3.jpg" title="The Eye" id="img5" text="Soundtrack CD for the movie The Eye." after="#img6" back="#img4"%}
+    {% include lightbox.html main-pic="image/ParkMfinal1.jpg" title="ParkM" id="img4" text="ParkM is an app designed to relieve the stress of finding a parking place for your vehical" after="#img5" back="#img3" %}
     
-    {% include lightbox.html img="image/thumb-6.jpg" title="Photography" id="img6" text="A collection of Photographs" after="#img1" back="#img5"%}
+    {% include video-lightbox.html main-pic="image/thumb-3.jpg" title="Carbon Copy" id="img5" text="Soundtrack CD for the movie The Eye." after="#img6" back="#img4" source="https://player.vimeo.com/video/146919917" artform="MOTION | FILM | 2015" %}
+    
+    {% include lightbox.html main-pic="image/thumb-6.jpg" title="Photography" id="img6" text="A collection of Photographs" after="#img1" back="#img5" %}
     
     
  </main>

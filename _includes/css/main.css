@@ -353,6 +353,10 @@ p.artform {
     padding-top: 1em;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 .underline {
     border-top: 1px solid #8c888c;
 }
@@ -369,11 +373,11 @@ p.artform {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .embed-16by9 {
-    padding-top: 56.25%;
+    padding-top: 100%;
 }
 
 embed-item {
@@ -383,6 +387,7 @@ embed-item {
     width: 100%;
     height: 100%;
 }
+
 
 @media only screen and (min-width:38em) {
 
