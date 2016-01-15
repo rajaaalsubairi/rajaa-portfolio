@@ -74,6 +74,10 @@ body {
     color: #f6a56f;
 }
 
+p {
+    font-weight: 400;
+}
+
 .logo {
     width: 25%;
     margin:0 37.5% 1em;
@@ -335,7 +339,7 @@ h3 {
 
 .subtext {
     color: #8c888c;
-    font-style: normal;
+    font-weight: 400;
 }
 
 h1 {
@@ -346,11 +350,38 @@ p.artform {
     color: #8c888c;
     text-align: right;
     margin-bottom: 0;
-   padding-top: 1em;
+    padding-top: 1em;
 }
 
 .underline {
     border-top: 1px solid #8c888c;
+}
+
+/*video*/
+.embed {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.embed-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.embed-16by9 {
+    padding-top: 56.25%;
+}
+
+embed-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (min-width:38em) {
