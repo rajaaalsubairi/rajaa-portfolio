@@ -50,6 +50,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 3;
+    box-shadow: 3px 13px 37px -25px #8c888c;
 }
 
 .nav li,
@@ -322,16 +323,35 @@ hr {
     border-bottom: 2px solid #e41a50;
     color: #e41a50;
 }
+
 .icons {
     display: inline-block;
 }
-
 
 h3 {
     font-style: bold;
     margin: 0 0 .5em;
 }
 
+.subtext {
+    color: #8c888c;
+    font-style: normal;
+}
+
+h1 {
+    margin: 0;
+}
+
+p.artform {
+    color: #8c888c;
+    text-align: right;
+    margin-bottom: 0;
+   padding-top: 1em;
+}
+
+.underline {
+    border-top: 1px solid #8c888c;
+}
 
 @media only screen and (min-width:38em) {
 
