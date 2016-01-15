@@ -203,7 +203,7 @@ p {
 .closelightbox:active,
 .closelightbox:focus{
     background-color: black;
-    color: pink;
+    color: #8c888c;
 }
 
 .lightbox-container {
@@ -362,6 +362,17 @@ h2 {
 
 .underline {
     border-top: 1px solid #8c888c;
+}
+
+.email {
+    text-decoration: none;
+    color:white;
+}
+
+.email:hover, 
+.email:focus, 
+.email:active {
+    color:  #e41a50;
 }
 
 /*video*/
