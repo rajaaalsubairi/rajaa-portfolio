@@ -121,6 +121,7 @@ p {
     color: white;
     overflow: hidden;
     margin-top: 1em;
+    position: relative;
 }
 
 /** LIGHTBOX MARKUP **/
