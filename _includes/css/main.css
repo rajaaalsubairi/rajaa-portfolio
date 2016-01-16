@@ -223,6 +223,21 @@ p {
      opacity: 1;
 }
 
+.mobile-gal a {
+    height: 0;
+}
+
+.mobile-gal {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.mobile-gal img {
+    width: 100%;
+    height: 100%;
+}
+
 /**footer*/
 
 .copyright {
@@ -409,6 +424,10 @@ h2 {
     }
 
     .mobile-thumbs {
+    display: none;
+    }
+    
+    .mobile-gal {
     display: none;
     }
     
