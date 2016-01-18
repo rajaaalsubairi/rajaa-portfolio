@@ -242,6 +242,10 @@ p {
     border-bottom: 1px solid #8c8b8b;
 }
 
+p {
+    margin-right: 1em; 
+    font-size: .85em;
+}
 /**footer*/
 
 .copyright {
