@@ -246,6 +246,10 @@ p {
     margin-right: 1em; 
     font-size: .85em;
 }
+
+.icon-alien {
+font-size: .75em;
+}
 /**footer*/
 
 .copyright {
