@@ -259,15 +259,15 @@ p {
     border-bottom: 1px solid #8c8b8b;
 }
 
-.casestudy p {
+.casestudy p, 
+ul li{
     margin-right: 1em; 
-    margin-bottom: 0;
     font-size: .85em;
 }
 
-li{
-    margin-right: 1em; 
-    font-size: .85em;
+
+.list{
+    margin-bottom: 0;
 }
 
 .icon-alien {
