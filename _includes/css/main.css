@@ -241,8 +241,8 @@ p {
 	top: 50%;
 	transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-	padding-top: 60%;
-	padding-bottom: 60%;
+	padding-top: 50%;
+	padding-bottom: 50%;
 	right: 0;
 	left: 0;
 	text-align: center;
