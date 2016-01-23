@@ -213,7 +213,7 @@ p {
 }
 
 .lightbox-container {
-    margin:6.5em 1em; 0;
+    margin:6.5em 1em 0;
 }
 
 .gal {
@@ -447,6 +447,10 @@ h2 {
     
     .lightbox-container {
     margin: 6em 5em 0;
+    }
+    
+    .photo-lightbox {
+         margin: 0 8em 0;
     }
     
     .work-fig .work-info {

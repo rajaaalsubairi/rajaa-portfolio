@@ -1,5 +1,41 @@
-<a href="{{include.url}}">
-            <img src="{{include.img}}">
-</a>
-
-
+<div class="lightbox" id="{{include.id}}">
+    
+     <div class="lightbox-container">
+    
+            <p class="artform kilo">{{include.artform}}</p>
+            
+            <hr class="underline">
+            
+            <h1>{{include.title}}</h1>
+            <h2 class="mega subtext">{{include.text}}</h2>    
+  <div class="photo-lightbox">   
+      
+<img class="push" src="{{include.img1}}" alt="{{include.alt1}}">    
+<img class="push" src="{{include.img5}}" alt="{{include.alt5}}">
+<img class="push" src="{{include.img3}}" alt="{{include.alt3}}">
+<img class="push" src="{{include.img4}}" alt="{{include.alt4}}">
+<img  src="{{include.img2}}" alt="{{include.alt2}}">
+</div>
+         
+<ul class="grid galnav">
+         <a href="{{include.back}}" class=" info unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+        <li class="previous">
+             <i class="icon-left"></i>
+        </li>
+            </a>
+    
+        <a href="{{include.after}}" class="info unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+        <li class="next">
+            <i class="icon-right"></i>
+        </li>
+        </a>
+    </ul>
+    
+    <hr>
+        <a class="closelightbox" href="{{site.baseurl}}/#_">
+        <p>Exit</p>
+    </a>
+        
+</div>
+    
+    </div>
