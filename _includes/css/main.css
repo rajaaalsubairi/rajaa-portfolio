@@ -422,6 +422,13 @@ h2 {
     padding-top: 56.25%;
 }
 
+.more-link{
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
 @media only screen and (min-width:38em) {
 
     .nav ul li {
