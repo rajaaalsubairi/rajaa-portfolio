@@ -216,9 +216,13 @@ p {
     margin:6.5em 1em 0;
 }
 
+.mobile-gal {
+    display: block;
+}
+
 .gal {
     overflow: hidden;
-    display: block;
+    display: none;
     opacity: 1;
     transition: all .5s linear;
 }
@@ -471,7 +475,14 @@ h2 {
 	.work-fig:focus .work-info {
 		opacity: 1;
     }
+    
+    .gal {
+        display: block;
+    }
 
+    .mobile-gal {
+        display: none;
+    }
 }
 
 @supports (min-height:100vh) {
