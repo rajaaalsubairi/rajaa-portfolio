@@ -287,17 +287,17 @@ footer {
 .error {
     overflow: hidden;
     padding-top: 5em;
-    background-color: black;
-    height: 20em;
+    height: 30em;
 }
 
-.error h2 {
+.error h2,
+.error h1{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .error a {
-    color: white;
+    color: black;
 }
 
 .galnav a,
