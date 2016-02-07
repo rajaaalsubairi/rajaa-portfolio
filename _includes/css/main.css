@@ -124,7 +124,7 @@ p {
 }
 
 .footer-info {
-    color: white;
+    color: black;
     overflow: hidden;
     margin-top: 1em;
     position: relative;
@@ -276,11 +276,11 @@ ul li{
 .copyright {
     text-align: center;
     margin: 0;
-    color: white;
+    color: black;
 }
 
 footer {
-    background-color: #444444;
+    background-color: white;
     padding: 1.5em;
 }
 
@@ -356,7 +356,7 @@ hr {
 
 .icons a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 2em; 
 }
 
@@ -401,7 +401,7 @@ h2 {
 
 .email {
     text-decoration: none;
-    color:white;
+    color:black;
 }
 
 .email:hover, 
