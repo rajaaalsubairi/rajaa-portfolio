@@ -123,11 +123,11 @@ p {
 }
 
 .billboard {
-    background-image: url(../image/1-TOC.jpg);
+    background-image: url(../image/rajaa2.jpg);
     background-position: center top;
-    background-color: pink;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     min-height: 25em;
     margin-bottom: 0;
     overflow: hidden;
@@ -135,6 +135,15 @@ p {
 
 .intro {
    height: 4em;
+}
+
+.bio {
+    padding: 1.5em 25%;
+}
+
+.bio p {
+    font-variant-caps: all-small-caps;
+    font-size: 1.2em;
 }
 
  .overlay-bg{
@@ -480,13 +489,6 @@ h2 {
 
 @media only screen and (min-width:25em) {
 
-    .overlay-bg{
-   display: none;
-    }
-
-    .overlay {
-    display: none;
-    }
     
     .mobile-gal {
         display: block;
@@ -495,13 +497,6 @@ h2 {
 }
 @media only screen and (min-width:30em) {
 
-     .overlay-bg{
-   display: none;
-    }
-
-    .overlay {
-    display: none;
-    }
     
     .mobile-gal {
         display: block;
@@ -554,191 +549,69 @@ h2 {
     
     .gal {
         display: block;
-        padding: 3em 0em 0;
+        padding: 0;
     }
 
     .mobile-gal {
         display: none;
     }
     
-    .intro {
-    height: 15em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-    display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.75em;
-        display: block;
-    }
 
 }
 
 @media only screen and (min-width:44em) {
 
-    .intro {
-    height: 17em;
-    }
 
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
 
-    .overlay {
-    position: absolute;
-    top: 1.75em;
-        display: block;
-    }
-
+   
 }
 
 @media only screen and (min-width:50em) {
 
-    .intro {
-    height: 20em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.75em;
-        display: block;
-    }
-    
+   
     .gal {
         display: block;
-        padding: 3em 0em 0;
+        padding: 0;
     }
     
 }
 @media only screen and (min-width:60em) {
 
-    .intro {
-    height: 21.5em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.5em;
-        display: block;
-    }
-    
-    .gal {
-        display: block;
-        padding: 3em 0em 0;
-    }
 
 }
 
 @media only screen and (min-width:75em) {
 
-    .intro {
-    height: 26em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.5em;
-        display: block;
-    }
     
     .gal {
         display: block;
-        padding: 4em 0em 0;
+        padding: 0;
     }
 
 }
 
 @media only screen and (min-width:85em) {
 
-    .intro {
-    height: 26em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.5em;
-        display: block;
-    }
     
     .gal {
         display: block;
-        padding: 4em 0em 0;
+        padding: 0;
     }
 
 }
 
 @media only screen and (min-width:100em) {
 
-    .intro {
-    height: 33em;
-    }
-
-    .overlay-bg{
-    top: 3.5em;
-    width: 100%;
-    z-index: -2;
-    position: fixed;
-        display: block;
-    }
-
-    .overlay {
-    position: absolute;
-    top: 1.5em;
-        display: block;
-    }
     
     .gal {
         display: block;
-        padding: 4em 3em 0;
+        padding: 0;
     }
 
 }
 @supports (min-height:100vh) {
 
     .billboard {
-        min-height: 80vh;
+        min-height: 70vh;
     }
 }
