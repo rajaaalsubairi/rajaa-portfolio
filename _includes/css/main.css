@@ -48,12 +48,45 @@ img {
     top: 0;
 }
 
+<<<<<<< HEAD
+=======
+/**navigation*/
+/*.nav {
+    /*background-color: rgba(255,255,255,1);*/
+    padding: 1em .3em 0;
+    width: 100%;
+    height: 4em;
+   /* position: fixed;*/
+    z-index: 3;
+}*/
+
+/*.nav-white {
+   background-color: rgba(0,0,0,1);
+    padding: 1em .3em 0;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 3px 13px 37px -25px #8c888c;
+}*/
+>>>>>>> parent of bd4d82c... Fixing the navigation
 
 input, textarea {
 
+<<<<<<< HEAD
 	-webkit-appearance: none;
 
 	-webkit-border-radius: 0;
+=======
+.nav ul {
+    margin: 0 0 .5em;
+}
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    color: #f6a56f;
+}
+>>>>>>> parent of bd4d82c... Fixing the navigation
 
 }
 
@@ -63,7 +96,19 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
 
 	cursor: pointer;
 
+<<<<<<< HEAD
  *overflow:visible;
+=======
+.billboard {
+    background-image: url(../image/rajaa2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0 5% 5% 5%;
+    overflow: hidden;
+}
+>>>>>>> parent of bd4d82c... Fixing the navigation
 
 }
 
