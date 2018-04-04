@@ -1,9 +1,7 @@
 ---
 ---
 
-{% include css/bootstrap.css %}
+{% include css/grid.css %}
 
-{% include css/responsive.css %}
-{% include css/style.css %}
-{% include css/component.css %}
-{% include css/set2.css %}
+{% include css/type.css %}
+{% include css/main.css %}

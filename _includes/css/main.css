@@ -59,6 +59,8 @@ img {
    /* position: fixed;*/
     z-index: 3;
 }*/
+<<<<<<< HEAD
+=======
 
 /*.nav-white {
    background-color: rgba(0,0,0,1);
@@ -71,6 +73,18 @@ img {
 }*/
 >>>>>>> parent of bd4d82c... Fixing the navigation
 
+/*.nav-white {
+   background-color: rgba(0,0,0,1);
+    padding: 1em .3em 0;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 3px 13px 37px -25px #8c888c;
+}*/
+>>>>>>> parent of bd4d82c... Fixing the navigation
+
+<<<<<<< HEAD
 input, textarea {
 
 <<<<<<< HEAD
@@ -78,6 +92,8 @@ input, textarea {
 
 	-webkit-border-radius: 0;
 =======
+=======
+>>>>>>> parent of bd4d82c... Fixing the navigation
 .nav ul {
     margin: 0 0 .5em;
 }
